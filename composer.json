@@ -1,0 +1,40 @@
+{
+  "name": "vaix-dungpx/laravel-form-components",
+  "description": "Blade components to rapidly build forms with Bootstrap.",
+  "keywords": ["laravel", "component"],
+  "license": "MIT",
+  "type": "library",
+  "support": {
+    "issues": "https://github.com/sclaravel/laravel-form-components/issues",
+    "source": "https://github.com/sclaravel/laravel-form-components"
+  },
+  "authors": [
+    {
+      "name": "Dung PX",
+      "email": "dungpxvaix@gmail.com"
+    }
+  ],
+  "require": {
+    "php": "^8.1",
+    "ext-json": "*",
+    "laravel/framework": "^10.0"
+  },
+  "require-dev": {
+    "mockery/mockery": "^1.5",
+    "phpunit/phpunit": "^9.5.25"
+  },
+  "autoload": {
+    "psr-4": {
+      "TysonLaravel\\FormComponents\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "TysonLaravel\\FormComponents\\FormComponentServiceProvider"
+      ]
+    }
+  },
+  "minimum-stability": "stable"
+}
+
